@@ -1,8 +1,65 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0%;
 }
-h1 {
+.flexible{
+    display: flex;
+    align-items: center;
+    margin: 50px 130px;
+}
+.half{
+    width: 50%;
+    margin: 0 50px;
+}
+.half img{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+.button{
+    text-decoration: none;
+    font-size: 22px;
+    background-image: linear-gradient(
+    rgb(255, 188, 126),
+    rgba(255, 87, 58, 0.63)
+  );
+  border-radius: 5px;
+    padding: 12px 20px;
+    color: aliceblue;
+    font-weight: 900px;
+}
+.one-third{
+        width: 33%;
+        margin: 0px 15px;
+        padding: 30px 20px;
+        border-radius: 12px;
+}
+.one-third img{
+    width: 50%;
+}
+.mission{
+    background-color: rgb(234, 245, 255);
+}
+.vission{
+    background-color: rgb(215, 247, 255);
+}
+.goals{
+    background-color: rgb(184, 238, 255);
+}
+.half-one{
+    width: 67%;
+    margin: 0px 25px;
+}
+.third-section img{
+            width: 100%;
+}
+
+
+
+/* h1 {
   font-size: 30px;
 }
 section {
@@ -13,7 +70,7 @@ section {
   padding-left: 5%;
 }
 .half img {
-  width: 85%;
+  width: 60%;
 }
 .explore-button {
   text-decoration: none;
@@ -33,4 +90,4 @@ section {
 }
 .developer-idea img {
   width: 100%;
-}
+} */
